@@ -59,8 +59,8 @@ const Home = () => {
       
       {searchItem ?
       <div ref={inputRef} className='search-div' style={{ width: window.innerWidth <= 600 ? '11rem' : '20rem',position:'absolute',marginLeft:'4rem',zIndex:'2',marginTop:'5px',boxShadow:"1px 1px 10px 3px #fe52ad"}}>
-      {filteredData.map((item)=>
-      <Link href="/pages/Tickers">
+      {filteredData.map((item,index)=>
+      <Link href="/pages/Tickers" key={index}>
       <div style={{color:"#be8fdb",fontSize:window.innerWidth <= 600 ? '14px' : '20px',background:"#0d0208",paddingLeft:'1rem',cursor:"pointer"}} onClick={()=>setSearchItem(!searchItem)}>{item.name}</div>
       </Link>
       )}
