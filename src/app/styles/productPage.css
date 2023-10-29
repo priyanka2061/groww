@@ -1,0 +1,127 @@
+.about-container {
+    margin: 2rem 20rem;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.company-name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.para {
+    margin:2rem 2rem;
+}
+
+.company-name img {
+    border: 1px solid #ddd;
+    border-radius: 8rem;
+}
+
+.flow-chart {
+    border: 1px solid gray;
+    width: 100%;
+    align-items: center;
+    height: 60vh;
+    margin-top: 2rem;
+    display:flex;
+    justify-Content:center;
+    align-items:center;
+    padding: 3rem;
+}
+
+.company-about {
+   
+    width: 100%;
+
+    margin: 2rem 0rem;
+    padding: 1rem;
+}
+
+.company-about p {
+    color: gray;
+}
+
+.company-about button {
+    margin: 1rem 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 3rem;
+    background-color:#a16207;
+    color:white;
+    font-size: 1rem;
+    width: fit-content;
+    text-transform:lowercase;
+}
+
+.current-price {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.company-basic {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+
+}
+
+.curr {
+    text-align: center;
+    border-bottom: 3px solid gray;
+    width: 17rem;
+    margin: 1rem 0;
+}
+
+@media (min-width: 360px)  and (max-width: 1024px) {
+    .about-container {
+        margin: 2rem 2rem;
+        line-height: 1.5rem;
+        
+    }
+
+    .company-name {
+        display: block;
+
+    }
+
+    .company-price {
+        margin: 1rem 2rem;
+    }
+
+    .current-price {
+        display: block;
+    }
+
+    .company-basic {
+        display: block;
+
+
+    }
+
+    .company-about button {
+        font-size: small;
+        padding: 10px;
+        color: white;
+        width: fit-content;
+        margin-left: 5px;
+    }
+
+    .curr {
+        width: 9rem;
+    }
+
+    .current-price-div {
+        margin-top: 1rem;
+    }
+
+}
+
+@media  (min-width: 1024px) {
+    .about-container {
+        margin: 2rem 20rem;
+    }
+
+}
