@@ -16,16 +16,16 @@ const Home = () => {
   const inputRef1=useRef();
   const [searchItem,setSearchItem]=useState(false);
   const [searchValue, setSearchValue] = useState("");
-   window.addEventListener('click',(e)=>{
-    if(e.target !== inputRef.current && e.target !==inputRef1.current ){
-        setSearchItem(false);
-    }
-   })
-    // Filter the data based on the search input
-    console.log("search"+searchValue)
-  const filteredData = data.filter((item) =>
-  item.name.toLowerCase().includes(searchValue.toLowerCase())
-);
+//    window.addEventListener('click',(e)=>{
+//     if(e.target !== inputRef.current && e.target !==inputRef1.current ){
+//         setSearchItem(false);
+//     }
+//    })
+//     // Filter the data based on the search input
+//     console.log("search"+searchValue)
+//   const filteredData = data.filter((item) =>
+//   item.name.toLowerCase().includes(searchValue.toLowerCase())
+// );
   // const [data,setData]=useState([]);
   // const getTickers=(searchitem)=>{
   //    axios.get('/hello/data3')

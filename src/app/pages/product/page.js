@@ -34,14 +34,14 @@ const Page = () => {
     
       <div className="company-name">
         <div className="image-div">
-          <div>
+          {/* <div>
             <img
               src="https://www.freeiconspng.com/uploads/apple-icon-4.png"
               alt="Apple Icon"
               width={100}
               height={100}
             />
-          </div>
+          </div> */}
           <div className="para">
           <h2>{overview.Name}</h2>
             <p>{overview.AssetType}</p>
